@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body {
+  color:white;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #1c1c1e;
+}
+
+header {
+  width: 100%;
+}
+
+header h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 160px;
+  font-weight: 600;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;   
+}
+
+header .tulisanbesar{
+  background-image: repeating-radial-gradient(circle farthest-side at 5px 10px,#553c9a 10%, #dc51db 30%, #553c9a);
+}
+
+.chapter-purple {
+    background-color: #553c9a !important;
+    color: white;
+}
+
+.chapter-pink {
+    background-color: #dc51db !important;
+    color: white;
+}
+
+.card {
+background-color: #414141;
+color: white;
+border-radius: 10px;
+}
+
+.text-purple {
+    color: #553c9a;
+}
+
+.text-pink{
+    color: #dc51db;
+}
+
+.bg-pink {
+    background-color: #dc51db;
+    color:white;
+}
+
+footer {
+  background: rgb(220,81,219);
+  background: linear-gradient(130deg, rgba(220,81,219,1) 30%, rgba(85,60,154,1) 70%);
+}
